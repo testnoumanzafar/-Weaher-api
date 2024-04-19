@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    /* height: 400px; */
+    width: 90%;
+   max-width: 350px;
+    background : linear-gradient(135deg,#00feba,#5b548a);
+    margin: 100px auto 0;
+    padding: 34px 23px;
+    text-align: center;
+    border-radius: 12px 12px;
+}
+.head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head input{
+    width: 70%;
+    padding: 16px 21px;
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    border-radius: 23px 23px ;
+    
+}
+.head button{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 0;
+}
+.head button img{
+    width: 22px;
+    height:22px;
+
+}
+.weather img{
+    width: 35%;
+    margin-top: 25px;
+}
+.weather h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.weather h2{
+    color: white;
+    font-size: 25px;
+    margin-top: 14px;
+
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+.col{
+    display:  flex;
+    margin-top: 38px;
+     
+}
+.col img{
+    width: 50px;
+    height: 50px;
+ 
+}
+.humidity h1{
+    color: white;
+    font-size:  30px
+}
+.humidity h2{
+    color: white;
+    font-size:  15px
+}
+.col1{
+    display:  flex;
+    margin-top: 38px;
+    justify-content: end;
+}
+.col1 img{
+    width: 50px;
+    height: 50px;
+ 
+}
+.wind h1{
+    color: white;
+    font-size:  30px
+     
+   
+}
+.wind h2{
+    color: white;
+    font-size:  15px
+}
+
