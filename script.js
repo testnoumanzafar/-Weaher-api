@@ -1,6 +1,6 @@
 let inputtext =document.getElementById("input")
 let search= document.getElementById("search")
-// let weathericon=document.getElementById("weathericon")
+// let weathericon=document.getElementById("iconweather")
 let tem=document.getElementById("tem") 
 let humidity=document.getElementById("humidity")
 let wind=document.getElementById("wind")
@@ -23,6 +23,6 @@ tem.innerText=resul.current.temp_c;
     wind.innerText=resul.current.wind_kph
 loc.innerText=inputtext.value
 weathericon.src=resul.current.condition.icon 
- document.getElementById("weathericon").src=resul.current.condition.icon 
+ // document.getElementById("weathericon").src=resul.current.condition.icon 
 
 })
