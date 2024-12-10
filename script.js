@@ -1,6 +1,6 @@
 let inputtext =document.getElementById("input")
 let search= document.getElementById("search")
-// let weathericon=document.getElementById("iconweather")
+let weathericon=document.getElementById("iconweather")
 let tem=document.getElementById("tem") 
 let humidity=document.getElementById("humidity")
 let wind=document.getElementById("wind")
